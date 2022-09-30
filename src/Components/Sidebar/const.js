@@ -1,144 +1,142 @@
 export const dataDrawer = [
     {
-        parent: {
-            name: 'PAGES',
-            chilren: [
-                {
-                    id: 1,
-                    label: 'Dashboard',
-                    icon: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
-                },
-                {
-                    id: 2,
-                    label: 'Dashboard',
-                    iconleft: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
-                },
-                {
-                    id: 3,
-                    label: 'Dashboard',
-                    iconleft: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
-                },
-                {
-                    id: 4,
-                    label: 'Dashboard',
-                    iconleft: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
-                },
-                {
-                    id: 5,
-                    label: 'Dashboard',
-                    iconleft: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
 
-                }]
-        }
+        name: 'PAGES',
+        children: [
+            {
+                id: 1,
+                name: 'Dashboard',
+                iconleft: '',
+                route: 'Dashboard',
+                component: '',
+                iconRight: '',
+
+                children: [
+                    {
+                        id: 2,
+                        name: 'Default',
+                        iconleft: '',
+                        route: 'Dashboard',
+                        component: '',
+                        iconRight: ''
+                    },
+                    {
+                        id: 3,
+                        name: 'Analytics',
+                        iconleft: '',
+                        route: 'Dashboard',
+                        component: '',
+                        iconRight: ''
+                    },
+                    {
+                        id: 4,
+                        name: 'SaaS',
+                        iconleft: '',
+                        route: 'Dashboard',
+                        component: '',
+                        iconRight: ''
+                    },
+                ]
+            }
+
+
+        ],
+
+
     },
     {
-        parent: {
-            name: 'ELEMENTS',
-            chilren: [
-                {
-                    id: 1,
-                    label: 'Dashboard',
-                    icon: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
-                },
-                {
-                    id: 2,
-                    label: 'Dashboard',
-                    iconleft: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
-                },
-                {
-                    id: 3,
-                    label: 'Dashboard',
-                    iconleft: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
-                },
-                {
-                    id: 4,
-                    label: 'Dashboard',
-                    iconleft: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
-                },
-                {
-                    id: 5,
-                    label: 'Dashboard',
-                    iconleft: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
 
-                }]
-        }
+        name: 'ELEMENTS',
+        children: [
+            {
+                id: 1,
+                name: 'Dashboard',
+                iconleft: '',
+                route: 'Dashboard',
+                component: '',
+                iconRight: ''
+            },
+            {
+                id: 2,
+                name: 'Dashboard',
+                iconleft: '',
+                route: 'Dashboard',
+                component: '',
+                iconRight: ''
+            },
+            {
+                id: 3,
+                name: 'Dashboard',
+                iconleft: '',
+                route: 'Dashboard',
+                component: '',
+                iconRight: ''
+            },
+            {
+                id: 4,
+                name: 'Dashboard',
+                iconleft: '',
+                route: 'Dashboard',
+                component: '',
+                iconRight: ''
+            },
+            {
+                id: 5,
+                name: 'Dashboard',
+                iconleft: '',
+                route: 'Dashboard',
+                component: '',
+                iconRight: ''
+
+            }]
+
     },
     {
-        parent: {
-            name: 'MIRA',
-            chilren: [
-                {
-                    id: 1,
-                    label: 'Dashboard',
-                    icon: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
-                },
-                {
-                    id: 2,
-                    label: 'Dashboard',
-                    iconleft: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
-                },
-                {
-                    id: 3,
-                    label: 'Dashboard',
-                    iconleft: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
-                },
-                {
-                    id: 4,
-                    label: 'Dashboard',
-                    iconleft: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
-                },
-                {
-                    id: 5,
-                    label: 'Dashboard',
-                    iconleft: '',
-                    route: 'Dashboard',
-                    component: '',
-                    iconRight: ''
 
-                }]
-        }
+        name: 'MIRA',
+        children: [
+            {
+                id: 1,
+                name: 'Dashboard',
+                iconleft: '',
+                route: 'Dashboard',
+                component: '',
+                iconRight: ''
+            },
+            {
+                id: 2,
+                name: 'Dashboard',
+                iconleft: '',
+                route: 'Dashboard',
+                component: '',
+                iconRight: ''
+            },
+            {
+                id: 3,
+                name: 'Dashboard',
+                iconleft: '',
+                route: 'Dashboard',
+                component: '',
+                iconRight: ''
+            },
+            {
+                id: 4,
+                name: 'Dashboard',
+                iconleft: '',
+                route: 'Dashboard',
+                component: '',
+                iconRight: ''
+            },
+            {
+                id: 5,
+                name: 'Dashboard',
+                iconleft: '',
+                route: 'Dashboard',
+                component: '',
+                iconRight: ''
+
+            }]
+
     },
 
 ]
