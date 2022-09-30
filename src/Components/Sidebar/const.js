@@ -2,36 +2,27 @@ export const dataDrawer = [
     {
 
         name: 'PAGES',
-        chilren: [
+        children: [
             {
                 id: 1,
-                name: 'Dashboard4',
+                name: 'Dashboard',
                 iconleft: '',
                 route: 'Dashboard',
                 component: '',
-                iconRight: ''
-            },
-            {
-                id: 2,
-                name: 'Dashboard5',
-                iconleft: '',
-                route: 'Dashboard',
-                component: '',
-                iconRight: ''
-            },
-            {
-                id: 2,
-                name: 'Dashboard5',
-                iconleft: '',
-                route: 'Dashboard',
-                component: '',
-                iconRight: ''
-            },
-            {
-                chilren: [
+                iconRight: '',
+
+                children: [
                     {
-                        id: 7,
-                        name: 'Dashboard7',
+                        id: 2,
+                        name: 'Default',
+                        iconleft: '',
+                        route: 'Dashboard',
+                        component: '',
+                        iconRight: ''
+                    },
+                    {
+                        id: 3,
+                        name: 'Analytics',
                         iconleft: '',
                         route: 'Dashboard',
                         component: '',
@@ -39,33 +30,27 @@ export const dataDrawer = [
                     },
                     {
                         id: 4,
-                        name: 'Dashboard',
+                        name: 'SaaS',
                         iconleft: '',
                         route: 'Dashboard',
                         component: '',
                         iconRight: ''
                     },
-                    {
-                        id: 5,
-                        name: 'Dashboard',
-                        iconleft: '',
-                        route: 'Dashboard',
-                        component: '',
-                        iconRight: ''
-                    }
                 ]
             }
-        ]
+
+
+        ],
 
 
     },
     {
 
         name: 'ELEMENTS',
-        chilren: [
+        children: [
             {
                 id: 1,
-                name: 'Dashboard1',
+                name: 'Dashboard',
                 iconleft: '',
                 route: 'Dashboard',
                 component: '',
@@ -73,7 +58,7 @@ export const dataDrawer = [
             },
             {
                 id: 2,
-                name: 'Dashboard2',
+                name: 'Dashboard',
                 iconleft: '',
                 route: 'Dashboard',
                 component: '',
@@ -81,7 +66,7 @@ export const dataDrawer = [
             },
             {
                 id: 3,
-                name: 'Dashboard3',
+                name: 'Dashboard',
                 iconleft: '',
                 route: 'Dashboard',
                 component: '',
@@ -109,7 +94,7 @@ export const dataDrawer = [
     {
 
         name: 'MIRA',
-        chilren: [
+        children: [
             {
                 id: 1,
                 name: 'Dashboard',
@@ -152,6 +137,6 @@ export const dataDrawer = [
 
             }]
 
-    }
+    },
 
 ]
