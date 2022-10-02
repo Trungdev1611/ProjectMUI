@@ -5,7 +5,11 @@ export const styleHeader = {
         backgroundColor: '#24292e',
         alignItems: 'center',
         height: 70,
-        position: 'static',
+        position: 'sticky',
+        '&.MuiStack-root': {
+
+        },
+        top: 0
 
     },
     typography: {
