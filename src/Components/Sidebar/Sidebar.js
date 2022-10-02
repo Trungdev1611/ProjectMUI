@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Drawer from '@mui/material/Drawer';
 import { dataDrawer } from './const';
 import MenuNestReuse from '../Common/Menu/MenuNestReuse';
@@ -30,16 +30,17 @@ const Sidebar = () => {
         },
     }
     return (
-        <Drawer
-            variant="permanent"
-            open={true}
-            sx={sxSidebar}>
-            <MenuNestReuse
-                data={dataDrawer}
-                fontsize="14px"
-                padding="15px"
-            />
-        </Drawer>
+        <div style={{ width: '250px' }}>
+            <Drawer
+                variant="permanent"
+                open={true}
+                sx={sxSidebar}>
+                <MenuNestReuse
+                    data={dataDrawer}
+
+                />
+            </Drawer>
+        </div>
 
     )
 }

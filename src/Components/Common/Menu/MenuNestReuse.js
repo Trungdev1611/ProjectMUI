@@ -3,11 +3,18 @@ import { Collapse, List, ListItemButton, ListItemIcon, ListItemText } from "@mui
 import { ExpandLess, ExpandMore } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import { styled } from '@mui/material/styles';
-
+import { useLocation } from 'react-router-dom';
 //style fontsize and padding
 const StyleListText = styled(ListItemText)(({ theme }) => ({
     '& .MuiTypography-root': {
         fontSize: "14px",
+    },
+    '&.Mui-selected': {
+        backgroundColor: '#1e293a'
+    },
+    '&.MuiListItemButton-root': {
+        paddingLeft: 0,
+        marginLeft: "16px"
     }
 
 }));
@@ -18,8 +25,10 @@ const ShowtypeMenu = ({ item }) => {
         <SingleLevelMenu item={item} />
 }
 const SingleLevelMenu = ({ item }) => {
+    const location = useLocation()
+    console.log(location)
     return (
-        <ListItemButton component={Link} to={item.name}>
+        <ListItemButton component={Link} to={item.name} selected={`/${item.name}` === location.pathname} >
             {item.iconleft &&
                 <ListItemIcon>
                     {item.iconleft}
@@ -45,7 +54,7 @@ const NestedMenuLevel = ({ item }) => {
                 <StyleListText primary={item.name} />
                 {open ? <ExpandLess /> : <ExpandMore />}
             </ListItemButton>
-            <Collapse in={open} timeout="auto" unmountOnExit sx={{ paddingLeft: '15px' }}>
+            <Collapse in={open} timeout="auto" unmountOnExit sx={{ marginLeft: '15px' }}>
                 <List disablePadding>
                     {item.children.map((ele, index) => {
                         return <ShowtypeMenu item={ele} key={Math.random()} />
