@@ -1,6 +1,6 @@
 import React from 'react'
 import { Box, Link, Stack, Typography } from '@mui/material'
-import ButtonCommon from '../Common/ButtonCommon'
+import ButtonCommon from '../Common/Button/ButtonCommon'
 import CloseIcon from '@mui/icons-material/Close';
 import { styleHeader } from './styleHeader';
 const Header = () => {

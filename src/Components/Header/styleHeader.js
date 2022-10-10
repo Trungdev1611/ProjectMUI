@@ -6,6 +6,7 @@ export const styleHeader = {
         alignItems: 'center',
         height: 70,
         position: 'sticky',
+        zIndex: 1000,
         '&.MuiStack-root': {
 
         },

@@ -11,6 +11,7 @@ const Sidebar = () => {
             position: 'absolute',
             top: '70px',
             color: 'white',
+            zIndex: 500,
             '&::-webkit-scrollbar': {
                 width: '0.4em',
                 height: '20px',
